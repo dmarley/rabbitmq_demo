@@ -18,7 +18,7 @@
 		<r:layoutResources />
 	</head>
 	<body>
-		<div id="grailsLogo" role="banner"><span style="color:#000000; font-size: 22px;">Cloud Foundry App Challenge 2012</span></div>
+		<div id="grailsLogo" role="banner"> &nbsp;&nbsp;<img src="${resource(dir: 'images', file: 'rabbit.jpeg')}" height="100" width="75" alt="Grails"/><span style="font-size: 45px;"> Cloud Foundry App Challenge 2012</span></div>
 		<g:layoutBody/>
 		<div class="footer" role="contentinfo"></div>
 		<div id="spinner" class="spinner" style="display:none;"><g:message code="spinner.alt" default="Loading&hellip;"/></div>
